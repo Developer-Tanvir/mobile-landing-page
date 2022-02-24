@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+.mainbody{
+    font-family: 'Oxygen', sans-serif;
+}
+.title{
+    font-family: 'Oxygen', sans-serif;
+}
+.tabModule ul li a{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.slick-initialized .slick-slide p{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+.tabModule .ui-widget-header {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    transition: 0.4s;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+ 
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .block {
+	width: 75%;
+	margin: 0 auto;
+}
+.panel{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    
+    
+}
+.panel p{
+    margin: 0;
+    padding: 5px 0 ;
+    font-size: 16px;
+}
+.contentPad h1{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.contentPad h2{
+    text-align: center;
+    background-color: #003399;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.responsive .slick-prev {
+  
+  top: calc(30%);
+}
+.responsive .slick-next {
+
+  top: calc(30%);
+}
+
+/* /\/\/\/\/\/\/\/\/\/ responsive /\/\/\/\/\/\/\/\/\/\  */
+
+@media only screen and (max-width: 768px) {
+  .tabModule a{
+    font-size: 55%;
+  }
+  h1,h2,h3{
+    font-size: 55%;
+  }
+}
